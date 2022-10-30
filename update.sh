@@ -1,4 +1,4 @@
-#!/usr/bin/env bash -xe
+#!/usr/bin/env -S bash -xe
 
 ROOTDIR=$(dirname "$(readlink -f "$0")")
 if [ -f "$ROOTDIR/.env" ]; then

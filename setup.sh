@@ -1,4 +1,4 @@
-#!/usr/bin/env bash -xe
+#!/usr/bin/env -S bash -xe
 
 read -p "Domain name: " domainName
 if [ $domainName ]; then
